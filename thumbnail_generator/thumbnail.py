@@ -1,10 +1,11 @@
 import subprocess
 import os
-import time
+
+
 VIDEO_PATH = "C:\\xampp\\htdocs\\videos\\vids\\"
 IMG_PATH = "C:\\xampp\\htdocs\\videos\\thumbnail\\"
-
 files = os.listdir(VIDEO_PATH)
+
 
 for file in files:
     video_input_path = VIDEO_PATH + file
